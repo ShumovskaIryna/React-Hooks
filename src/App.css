@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: inline-block;
+  overflow-y: scroll;
+  flex-direction: inherit;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  height: 100px;
+  padding: 30px;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+.btn {
+  margin: 5px;
+}
